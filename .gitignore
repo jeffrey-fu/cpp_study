@@ -1,0 +1,6 @@
+### STS ###
+.DS_Store
+cmake-build-debug
+
+### IntelliJ IDEA ###
+.idea
