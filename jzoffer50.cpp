@@ -1,7 +1,6 @@
 // https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/
 
 #include <iostream>
-#include <unordered_map>
 using namespace std;
 
 class Solution {
@@ -29,10 +28,5 @@ int main() {
     Solution s;
     char result = s.firstUniqChar(str);
     cout << result << endl;
-    unordered_map<char, bool> dic;
-    dic['c'] = false;
-    dic['d'] = true;
-    char cc = dic.end()->first;
-    cout << cc << endl;
     return 0;
 }
